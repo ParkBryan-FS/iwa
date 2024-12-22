@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* ====Wrapper style */
+#wrapper {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+#overflow-text {
+  display: flex;
+  justify-content: center;
+}
+
+/* ====General Styles */
+a {
+  text-decoration: none;
+  color: #2d545e;
+}
+
+a:hover {
+  color: #c89666;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  color: #2d545e;
+  background-color: peachpuff;
+  width: 33%;
+  padding: 20px;
+  margin: auto;
+  border: 5px solid darkcyan;
+  display: block;
+  text-shadow: 0.25rem 0.25rem orangered;
+  border-radius: 10px 100px / 120px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  color: #2d545e;
+  background-color: peachpuff;
+  width: auto;
+  text-align: center;
+  line-height: 2px;
+  width: 33%;
+  padding: 20px;
+  margin: auto;
+  border: 5px solid darkcyan;
+  border-radius: 30px;
+}
+
+/* fix h3 text overlap. */
+h3 {
+  font-size: 2rem;
+  font-weight: normal;
+  color: #2d545e;
+  background-color: peachpuff;
+  width: auto;
+  text-align: center;
+  line-height: 2px;
+  width: 33%;
+  padding: 20px;
+  margin: auto;
+  border: 2px solid darkcyan;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ====Link Style */
+ul {
+  list-style-type: none;
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  border: 2px solid darkcyan;
+  background-color: peachpuff;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 30px;
+}
+
+p {
+  line-height: 150%;
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  border: 5px solid white;
+  border-style: double;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #2d545e;
+  background-color: peachpuff;
+  border-radius: 30px;
+}
+
+.link {
+  width: 25%;
+  padding: 20px;
+  margin: auto;
+  border: 2px solid darkcyan;
+  border-radius: 30px;
+  background-color: peachpuff;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+}
